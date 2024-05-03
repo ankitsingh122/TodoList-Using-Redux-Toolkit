@@ -6,8 +6,6 @@ import { addUser } from "../Store/Slices/UserSlice";
 import List from "./List";
 import Delete from "./Delete";
 
-
-
 const User = () => {
   const Dispatch = useDispatch();
 
@@ -24,9 +22,12 @@ const User = () => {
               List of User Details
             </div>
             <div className=" flex justify-end">
-              <div className=" mx-96  bg-purple-500 w-max rounded-lg px-3 py-2 text-white">
-                <button onClick={() => Adduser(fakeuser())}>Add +</button>
-              </div>
+              <button
+                className="mx-96 bg-purple-500 hover:bg-violet-700 w-max rounded-lg px-3 py-2 text-white"
+                onClick={() => Adduser(fakeuser())}
+              >
+                Add +
+              </button>
             </div>
           </div>
 

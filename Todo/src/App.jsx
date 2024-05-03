@@ -5,9 +5,14 @@ import User from "./component/User";
 const App = () => {
   return (
     <>
-      
-        <Navbar />
+
+    <div>
+
+          <Navbar />
         <User />
+    </div>
+      
+    
 
     </>
   );

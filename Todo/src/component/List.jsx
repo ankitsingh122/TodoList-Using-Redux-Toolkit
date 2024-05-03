@@ -12,7 +12,7 @@ function List() {
         {data.map((user, id) => {
           return (
             <div
-              className=" py-2 text-center text-2xl rounded-3xl bg-gray-300 mx-96 mt-2 "
+              className=" py-2 text-center text-2xl rounded-3xl bg-gray-300 mx-96 mt-2 font-mono "
               key={id}
             >
               {user}

@@ -4,11 +4,11 @@ function Navbar() {
   return (
     <>
       
-      <div className='text-6xl flex justify-center mt-32'>TODO LIST</div>
+      <div className='text-6xl flex justify-center mt-32 font-mono'>TODO LIST</div>
 
       <section>
         <nav className='flex justify-center'>
-          <ul className="flex justify-center space-x-10 w-max  mt-20  px-6  rounded-md py-2 bg-purple-500 text-white text-2xl ">
+          <ul className="flex justify-center space-x-10 w-max  mt-20  px-6  rounded-md py-2 bg-purple-500 text-white text-2xl  font-mono ">
             
             <li >
               <a href="/" data-item="Home">
